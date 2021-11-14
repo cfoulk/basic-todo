@@ -15,7 +15,6 @@ function addTodo(e) {
   li.classList.add("todo-item");
   todoDiv.appendChild(li);
   todoInput.value = "";
-  //localStorage.setItem("todos", JSON.stringify(li));
   todoList.appendChild(todoDiv);
 }
 
